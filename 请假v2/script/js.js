@@ -2,19 +2,19 @@
 let date = new Date()   
 let td = new Date()
 //开始时间，当前时间前30min
-td.setMinutes(date.getMinutes() - 30)
+td.setMinutes(date.getMinutes() - 0)
 $id('kssj2').innerHTML = `${zero(td.getMonth())}-${zero(td.getDay())} ${zero(td.getHours())}:${zero(td.getMinutes())}`
 //结束时间，当前时间后三个小时
-td.setHours(date.getHours() + 3)
+td.setHours(date.getHours() + 0)
 $id('jssj2').innerHTML = `${zero(td.getMonth())}-${zero(td.getDay())} ${zero(td.getHours())}:${zero(td.getMinutes())}`
 
 //发起申请的时间,2小时38分钟之前
-td.setHours(date.getHours() - 2)
-td.setMinutes(td.getMinutes() - 38)
+td.setHours(date.getHours() - 0)
+td.setMinutes(td.getMinutes() - 0)
 $id('fqsj').innerHTML = `${zero(td.getMonth())}-${zero(td.getDay())} ${zero(td.getHours())}:${zero(td.getMinutes())}`
 //审批通过时间，1小时19分钟之前
-td.setHours(date.getHours() - 1)
-td.setMinutes(td.getMinutes() - 19)
+td.setHours(date.getHours() - 0)
+td.setMinutes(td.getMinutes() - 0)
 $id('spsj').innerHTML = `${zero(td.getMonth())}-${zero(td.getDay())} ${zero(td.getHours())}:${zero(td.getMinutes())}`
 
 //如何销假？
@@ -28,8 +28,8 @@ $id('gzck').onclick = ()=>{
         <div id="alertBox">
             <div class="boxTitle">销假规则说明</div>
             <div class="boxContent">
-                · 开启时间: &nbsp;2022-06-02 16:43:31   <br/>
-                · 操作人: 廖建玮
+                · 开启时间: &nbsp;2022-08-21 16:43:31   <br/>
+                · 操作人: ampadmin
             </div>
             <div id="know">
                 知道了
